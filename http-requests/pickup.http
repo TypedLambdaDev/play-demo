@@ -1,0 +1,14 @@
+POST http://localhost:9000/pickup
+Content-Type: application/json
+
+{
+  "id": 0,
+  "orderName": "pickup book from Ashish"
+}
+
+###
+GET http://localhost:9000/pickup/4
+Accept: application/json
+
+###
+//HATEOAS
